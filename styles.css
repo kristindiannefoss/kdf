@@ -29,7 +29,7 @@
   float: right;
   width: 40vw;
   height: 51vh;
-  margin-top: 36vh;
+  margin-top: 37vh;
   font-size: 1.25em;
 }
 
@@ -89,6 +89,7 @@ a:hover {
 .content {
   padding-top: 3%;
   text-align: left;
+  padding-bottom: 9%;
 }
 
 .skills-content {
