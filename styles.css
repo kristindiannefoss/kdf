@@ -10,6 +10,7 @@
   display: flex;
   float: left;
   flex-direction: row;
+  width: 99vw;
 }
 
 #titles {
@@ -42,6 +43,7 @@
 
 .title {
   font-size: 2em;
+  color: #00bf9e;
 }
 
 .nav-list {
@@ -102,7 +104,11 @@ a:hover {
 
 .modal-title {
   font-size: 3em;
-  color: #dce1e4;
+  color: #00bf9e;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding-left: 31vw;
 }
 
 .back {
@@ -110,7 +116,7 @@ a:hover {
 }
 
 .proj-img {
-  height: 37vh;
+  height: 19vw;
   display: flex;
 }
 
@@ -123,9 +129,25 @@ a:hover {
   display: flex;
   line-height: 1.5;
   margin-left: 2vh;
+  padding-bottom: 5vh;
 }
 
 .proj-info {
   display: flex;
   margin-top: 2vh;
+  margin-bottom: 8vh;
+}
+
+.h2ish {
+  line-height: 2;
+  color: #ababab;
+}
+
+.back {
+  color: #00bf9e;
+}
+
+#contact-links {
+  text-align: center;
+  padding-top: 14vh;
 }
