@@ -58,7 +58,7 @@
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 a:hover {
@@ -67,4 +67,65 @@ a:hover {
 
 .modal {
   display: none;
+  width: 77vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 14vh;
+  padding: 6vh;
+  height: 36vh;
+}
+
+.fluff {
+  padding: 22px;
+  font-size: 2em;
+}
+
+.close {
+  float: left;
+}
+
+.content {
+  padding-top: 3%;
+  text-align: left;
+}
+
+.skills-content {
+  display: inline-flex;
+  text-align: center;
+  list-style: none;
+}
+
+.skills-ul {
+  list-style: none;
+  text-align: left;
+}
+
+.modal-title {
+  font-size: 3em;
+  color: #dce1e4;
+}
+
+.back {
+  font-size: 0.75em
+}
+
+.proj-img {
+  height: 37vh;
+  display: flex;
+}
+
+.proj-title {
+  font-size: 2em;
+}
+
+.proj-descr {
+  text-align: left;
+  display: flex;
+  line-height: 1.5;
+  margin-left: 2vh;
+}
+
+.proj-info {
+  display: flex;
+  margin-top: 2vh;
 }
