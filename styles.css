@@ -1,0 +1,49 @@
+.sans-serif {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+#main-page {
+  display: flex;
+  float: left;
+  flex-direction: row;
+}
+
+#titles {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  text-align: left;
+  vertical-align: middle;
+  padding-top: 40vh;
+  padding-left: 18vw;
+}
+
+#navigation {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 40vw;
+  height: 51vh;
+  margin-top: 36vh;
+  font-size: 1.25em;
+}
+
+#footer {
+  display: table-row;
+}
+
+.name {
+  font-size: 3em;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.nav-list {
+  font-size: 1em;
+}
