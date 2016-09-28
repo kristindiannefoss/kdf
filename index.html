@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display:900" rel="stylesheet">
-      <link href="styles.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:100,300,400,500,700" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link rel='shortcut icon' href='star.ico' type='image/x-icon'/ >
 
-    <title>kristin dianne foss</title>
-  </head>
-  <body>
+  <title>kristin dianne foss</title>
+</head>
+<body>
 
+  <aside class="close sans-serif">
+    <span class="back"><<  back</span><br>
+  </aside>
+  <section id="top-nav">
+
+    <span id="home" class="top-nav-list nav-list close  sans-serif-thin">
+      home
+    </span>
+
+    <span id="skills" class="top-nav-list nav-list sans-serif-thin">
+      skills
+    </span>
+    <span id="projects" class="top-nav-list nav-list sans-serif-thin">
+      projects
+    </span>
+    <span id="experience" class="top-nav-list nav-list sans-serif-thin">
+      experience
+    </span>
+    <span id="education" class="top-nav-list nav-list sans-serif-thin">
+      education
+    </span>
+    <span id="feels" class="top-nav-list nav-list sans-serif-thin">
+      feels
+    </span>
+    <span id="contact" class="top-nav-list nav-list sans-serif-thin">
+      contact
+    </span>
+  </section>
+
+  <section class="container">
     <section id="main-page">
       <article id="titles">
         <span class="name serif">
@@ -44,14 +76,10 @@
 
     <section class="modal skills" data-type="skills">
 
-      <aside class="close sans-serif">
-        <span class="back"><<</span><br>
-        <span class="back">back</span>
-      </aside>
 
       <span class="modal-title serif">skills</span>
       <article class="skills-content sans-serif">
-        <ul class="skills-ul">
+        <ul class="skills-ul1">
           <li>Object Oriented Design</li>
           <li>Ruby</li>
           <li>Ruby on Rails</li>
@@ -88,17 +116,13 @@
 
     <section class="modal projects" data-type="projects">
 
-      <aside class="close sans-serif">
-        <span class="back"><<</span><br>
-        <span class="back">back</span>
-      </aside>
       <span class="modal-title serif">projects</span>
 
       <article class="content">
         <span class="proj-title serif">Shoot the Breeze</span><br>
-        <a href="https://shoot-the-breeze-53743.firebaseapp.com/"  class="sans-serif">Deployed</a>
+        <a target="_blank" href="https://shoot-the-breeze-53743.firebaseapp.com/"  class="sans-serif">Deployed</a>
         <span class="sans-serif"> || </span>
-        <a href="https://github.com/kristindiannefoss/shoot-the-breeze"  class="sans-serif">Repo</a>
+        <a target="_blank" href="https://github.com/kristindiannefoss/shoot-the-breeze"  class="sans-serif">Repo</a>
         <section class="proj-info">
 
           <img src="chatcombo.png" alt="screenshot" class="proj-img"/>
@@ -108,38 +132,37 @@
           </span>
         </section>
 
-
         <span class="proj-title serif">Trolly Poozleh</span><br>
-        <a href="claudia108.github.io/puzzlenary/"  class="sans-serif">Deployed</a>
+        <a target="_blank" href="https://claudia108.github.io/puzzlenary/"  class="sans-serif">Deployed</a>
         <span class="sans-serif"> || </span>
-        <a href="github.com/kristindiannefoss/puzzlenary"  class="sans-serif">Repo</a>
+        <a target="_blank" href="https://github.com/kristindiannefoss/puzzlenary"  class="sans-serif">Repo</a>
         <section class="proj-info">
 
           <img src="trolls.png" alt="screenshot" class="proj-img"/>
 
           <span class="proj-descr sans-serif">
-          Trolly Poozleh is a concept our team of students created, based on the classic game whack-a- mole and our team member's collective love of puzzles. We created it to learn more about JavaScript and Node.js.  <br><br>The object of the game is to clear all off the pictures of the puzzle in each level by clicking the green squares. I created the styling and design for the game and contributed to the back end functionality.
-          Stack: JavaScript, Node.js, jQuery, HTML, CSS
+            Trolly Poozleh is a concept our team of students created, based on the classic game whack-a- mole and our team member's collective love of puzzles. We created it to learn more about JavaScript and Node.js.  <br><br>The object of the game is to clear all off the pictures of the puzzle in each level by clicking the green squares. I created the styling and design for the game and contributed to the back end functionality.
+            Stack: JavaScript, Node.js, jQuery, HTML, CSS
           </span>
         </section>
 
         <span class="proj-title serif">Dev Grove</span><br>
-        <a href="http://dev-grove-tough-love.herokuapp.com/"  class="sans-serif">Deployed</a>
+        <a target="_blank" href="http://dev-grove-tough-love.herokuapp.com/"  class="sans-serif">Deployed</a>
         <span class="sans-serif"> || </span>
-        <a href="https://github.com/kristindiannefoss/self_directed"  class="sans-serif">Repo</a>
+        <a target="_blank" href="https://github.com/kristindiannefoss/self_directed"  class="sans-serif">Repo</a>
         <section class="proj-info">
 
           <img src="dev_grove.png" alt="screenshot" class="proj-img"/>
 
           <span class="proj-descr sans-serif">
-           The name Dev Grove is derived from the concept of keeping up on your github commits, "keeping your forest green".  It is student project that explores consuming an external api. It serves as a developer dashboard. It uses Oauth through Github, jQuery with CSS for draggable functionality, a yoda syntax api, a weather api. <br><br>Nokogiri scrapes information from external HTML to bring in random insults or complements on a conditional based off of your daily Github commits.  It utilizes a PostgreSQL database and is deployed on Heroku. The test suite is in Rspec.
+            The name Dev Grove is derived from the concept of keeping up on your github commits, "keeping your forest green".  It is student project that explores consuming an external api. It serves as a developer dashboard. It uses Oauth through Github, jQuery with CSS for draggable functionality, a yoda syntax api, a weather api. <br><br>Nokogiri scrapes information from external HTML to bring in random insults or complements on a conditional based off of your daily Github commits.  It utilizes a PostgreSQL database and is deployed on Heroku. The test suite is in Rspec.
           </span>
         </section>
 
         <span class="proj-title serif">Goats and Soda</span><br>
-        <a href="https://goatsandsoda.herokuapp.com/"  class="sans-serif">Deployed</a>
+        <a target="_blank" href="https://goatsandsoda.herokuapp.com/"  class="sans-serif">Deployed</a>
         <span class="sans-serif"> || </span>
-        <a href="https://github.com/kristindiannefoss/pivot"  class="sans-serif">Repo</a>
+        <a target="_blank" href="https://github.com/kristindiannefoss/pivot"  class="sans-serif">Repo</a>
         <section class="proj-info">
 
           <img src="goats.png" alt="screenshot" class="proj-img"/>
@@ -154,10 +177,6 @@
 
     <section class="modal experience" data-type="experience">
 
-      <aside class="close sans-serif">
-        <span class="back"><<</span><br>
-        <span class="back">back</span>
-      </aside>
 
       <span class="modal-title serif">experience</span>
       <section class="content">
@@ -166,13 +185,13 @@
         <span class="h2ish sans-serif">Community Economics Lab  2016</span><br>
 
         <span class="proj-descr sans-serif">
-            Codevelop a concept RoR application for use in the public sector.
-            Reconfigure Rails MVC to maximize good UX.
-            Restructure database calls to allow for relational searches and filtering.  <br><br>
-            Build internal API to return JSON data for charting.
-            Integrate front end framework and design UI for application.
-            Evaluate and adapt the presentation of data to increase readability.
-            Stack: Ruby on Rails, MySQL, JavaScript, Sass
+          Codevelop a concept RoR application for use in the public sector.
+          Reconfigure Rails MVC to maximize good UX.
+          Restructure database calls to allow for relational searches and filtering.  <br><br>
+          Build internal API to return JSON data for charting.
+          Integrate front end framework and design UI for application.
+          Evaluate and adapt the presentation of data to increase readability.
+          Stack: Ruby on Rails, MySQL, JavaScript, Sass
         </span>
 
         <span class="proj-title serif">Floral Specialist
@@ -204,15 +223,11 @@
 
     <section class="modal education" data-type="education">
 
-      <aside class="close sans-serif">
-        <span class="back"><<</span><br>
-        <span class="back">back</span>
-      </aside>
       <span class="modal-title serif">education</span>
 
       <section class="content">
 
-        <a href="https://www.turing.io/programs" class="proj-title serif">Turing School of Software & Design
+        <a target="_blank" href="https://www.turing.io/programs" class="proj-title serif">Turing School of Software & Design
         </a><br>
         <span class="h2ish sans-serif">Web Application Development 2016</span><br>
 
@@ -227,7 +242,7 @@
           Responsive Design and UX'
         </span>
 
-        <a href="https://www.artinstitutes.edu/denver/academics/interior-product-design/interior-design-degree-program" class="proj-title serif">The Art Institute of Colorado
+        <a target="_blank" href="https://www.artinstitutes.edu/denver/academics/interior-product-design/interior-design-degree-program" class="proj-title serif">The Art Institute of Colorado
         </a><br>
         <span class="h2ish sans-serif">BA Interior Design 2010</span><br>
 
@@ -240,26 +255,17 @@
 
         </span>
 
-
-        <a href="http://www.colorado.edu/academics/programs/psychology" class="proj-title serif">University of Colorado
+        <a target="_blank" href="http://www.colorado.edu/academics/programs/psychology" class="proj-title serif">University of Colorado
         </a><br>
         <span class="h2ish sans-serif">BA Psychology 2007</span><br>
 
         <span class="proj-descr sans-serif">
-          While I never pursued a career directly related to my Psychology Degree, the study of behavior and cognition is something I have been able to apply.  The program included statistics classes as well as psychological studies.  I find my understanding of User Experience to be directly related to what I learned in this program.
+          The study of behavior and cognition is something I have been able to apply throughout my professional career.  The program included statistics classes as well as psychological studies.  I find my understanding of User Experience to be directly related to what I learned in this program.
           <br><br>
           'Among other things, psychologists study the most effective ways to deal with others and how humans can best adapt to change, stress and a variety of other situations that are a part of daily living. Major subfields within the discipline include human cognition, emotion, behavior, social interactions and mind­brain relationships.'
         </span>
 
-
       </section>
-
-
-
-
-
-
-
 
       <article class="content">
 
@@ -268,16 +274,12 @@
 
     <section class="modal feels" data-type="feels">
 
-      <aside class="close sans-serif">
-        <span class="back"><<</span><br>
-        <span class="back">back</span>
-      </aside>
 
       <span class="modal-title serif">feels</span>
 
       <article class="content">
         <span class="proj-title serif">about me</span><br>
-        <a href="http://kdfinsea.blogspot.com/"  class="sans-serif">My Travel Blog</a>
+        <a target="_blank" href="http://kdfinsea.blogspot.com/"  class="sans-serif">My Travel Blog</a>
 
         <section class="proj-info">
 
@@ -286,7 +288,8 @@
           <span class="proj-descr sans-serif">
             ^^ This is a blog I started during my four month sabbatical in Southeast Asia.  It’s easily one of the coolest things I’ve done and if you have the time, the blog is a pretty good view of who I am.
             <br><br>
-            I’m a passionate programmer and a lover of life.  I’ve been told I am a decent human being and not terrible to be around.  Love laughing, travel, health food, and animals.  I’m determined to live like I mean it.
+            I’m a passionate programmer and a lover of life.  I’ve been told I am a decent human being and I work well with others.  <br><br>
+            Love laughing, travel, health food, and animals.  I’m determined to live like I mean it.
           </span>
 
           <span class="proj-descr sans-serif">
@@ -298,19 +301,15 @@
 
     <section class="modal contact">
 
-      <aside class="close sans-serif">
-        <span class="back"><<</span><br>
-        <span class="back">back</span>
-      </aside>
       <span class="modal-title serif">contact</span>
 
       <article class="content">
         <section id="contact-links">
-          <a href="https://www.linkedin.com/in/kris-foss-a9683617"  class="fluff sans-serif">github</a>
+          <a target="_blank" href="https://www.linkedin.com/in/kris-foss-a9683617"  class="fluff sans-serif">linkedin</a>
 
-          <a href="https://github.com/kristindiannefoss" class="fluff sans-serif">linkedin</a>
+          <a target="_blank" href="https://github.com/kristindiannefoss" class="fluff sans-serif">github</a>
 
-          <a href="mailto:kris.foss@gmail.com" class="fluff sans-serif">email</a>
+          <a target="_blank" href="mailto:kris.foss@gmail.com" class="fluff sans-serif">email</a>
         </section>
       </article>
     </section>
@@ -318,6 +317,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="scripts.js"></script>
+  </section>
 
-  </body>
+</body>
 </html>
