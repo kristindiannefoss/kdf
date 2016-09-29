@@ -2,27 +2,40 @@
 
 $(document).ready(function(){
     $('.close').hide();
+    sizeCheck();
   }
 );
 
 function sizeCheck() {
-	if ($(window).width() <= 667){
+	if ($(window).width() <= 667 && $('#main-page').is(":hidden")){
 	  $('#top-nav').hide();
     $('.close').show();
+	} else if ($(window).width() >= 667 && $('#main-page').is(":hidden")) {
+    $('#top-nav').show();
+    $('.close').hide();
+	} else if ( $('#main-page').is(":visible") ) {
+    $('.close').hide();
+	  $('#top-nav').hide();
 	} else {
     $('.close').hide();
 	}
 }
 
+
 $(window).resize(function(){
-	if ($(window).width() <= 667){
-	  $('#top-nav').hide();
-	} else if ($(window).width() >= 667){
-    $('.close').hide();
-	  $('#top-nav').show();
-	} else {
-    $('.close').hide();
-	}
+  sizeCheck();
+
+	// if ($(window).width() <= 667 && $('#main-page').is(":visible")){
+	//   $('#top-nav').hide();
+  //
+	// } else if ($(window).width() >= 667 && $('#main-page').is(":visible")){
+  //   $('.close').hide();
+	//   $('#top-nav').show();
+  //
+	// } else if ( $('#main-page').is(":visible") ){
+  //   $('#top-nav').hide();
+  //   $('.close').hide();
+	// }
 });
 
 function getModal(name) {
@@ -38,7 +51,7 @@ function closeModal() {
   $('.modal').hide();
   $('#top-nav').hide();
   $('#main-page').show();
-  // $('.close').hide();
+  sizeCheck();
 }
 
 $('.nav-list').click(function(e) {
