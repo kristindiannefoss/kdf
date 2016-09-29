@@ -24,18 +24,6 @@ function sizeCheck() {
 
 $(window).resize(function(){
   sizeCheck();
-
-	// if ($(window).width() <= 667 && $('#main-page').is(":visible")){
-	//   $('#top-nav').hide();
-  //
-	// } else if ($(window).width() >= 667 && $('#main-page').is(":visible")){
-  //   $('.close').hide();
-	//   $('#top-nav').show();
-  //
-	// } else if ( $('#main-page').is(":visible") ){
-  //   $('#top-nav').hide();
-  //   $('.close').hide();
-	// }
 });
 
 function getModal(name) {
